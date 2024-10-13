@@ -1,0 +1,32 @@
+{
+  "name": "video-conferencia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bower": "^1.8.14",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "local-ip": "^2.0.0",
+    "local-ip-address": "^1.0.0",
+    "mongoose": "^8.6.0",
+    "nodemailer": "^6.9.15",
+    "peer": "^1.0.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.2.0",
+    "mongodb-memory-server": "^9.4.1",
+    "sinon": "^15.0.0"
+  }
+}
